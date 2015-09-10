@@ -1,0 +1,48 @@
+
+a {
+  font-size: 14px;
+}
+
+#container2 {
+  height: 100%;
+  width: 100%; 
+  overflow: visible; 
+  padding: 0px; 
+  position: relative;
+  display: visible;
+}
+
+#container3, #container4, #container5 {
+  height: 100%;
+  width: 100%; 
+  overflow: visible; 
+  padding: 0px; 
+  position: relative;
+  display: hidden;
+}
+
+.box {
+    background-color: white;
+    opacity: 0.5;
+    width: 20px;
+    height: 1000px;
+    position: absolute;
+    top: 40px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+#wrap1, #wrap2, #wrap3, #wrap4 {
+  overflow: visible; 
+  padding: 0px; 
+  position: relative;
+  display: none;
+}
