@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="images/icon.png">
+    <title>Timenity</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  </head>
+  
+<body>
+  <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Welcome to Timenity!</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login/Signup</a></li>
+            <li><a href="#">Account</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Add A Timezone <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="addTimeZone1" href="#">Wellington, New Zealand</a></li>
+                <li><a class="addTimeZone2" href="#">Arizona, United States</a></li>
+                <li><a class="addTimeZone3" href="#">Singapore, Singapore</a></li>
+                <li><a class="addTimeZone4" href="#">Tokyo, Japan</a></li>
+                <li><a href="#">More to come</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Search</li>
+                <li><textarea class="form-control" rows="1"></textarea></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container">
+  <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Group Name">
+    </div>
+    <button type="submit" class="btn btn-default">Save</button>
+  </form>
+</div>
+
+<div class="container">
+  <div id="boundbox" class="col-md-9 col-md-offset-3">
+    <div class="box" id="box1"></div>
+  </div>
+</div>
+
+<div class="container" id="wrap1">  
+<hr>
+  <div class="col-md-3">
+    <p>Wellington, New Zealand</p>
+    <small>UTC+12</small>
+  </div>
+
+  <div class="col-md-9">
+    <div id="container2">
+    <img src="images/timezone-01.jpg">
+    </div>
+      </div>
+  </div>
+
+<div class="container" id="wrap2">
+<hr>
+  <div class="col-md-3">
+    <p>Arizona, United States</p>
+    <small>UTC-7</small>
+  </div>
+
+  <div class="col-md-9">
+    <div id="container3">
+      <img src="images/timezone-02.jpg">
+      </div>
+  </div>
+</div>
+
+<div class="container" id="wrap3">
+<hr>
+  <div class="col-md-3">
+    <p>Singapore, Singapore</p>
+    <small>UTC+8</small>
+  </div>
+
+  <div class="col-md-9">
+    <div id="container4">
+      <img src="images/timezone-03.jpg">
+      </div>
+  </div>
+</div>
+
+<div class="container" id="wrap4">
+<hr>
+  <div class="col-md-3">
+    <p>Tokyo, Japan</p>
+    <small>UT+9</small>
+  </div>
+
+  <div class="col-md-9">
+    <div id="container5">
+      <img src="images/timezone-04.jpg">
+      </div>
+  </div>
+</div>
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+    <!-- Draggable from https://greensock.com/draggable -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/utils/Draggable.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+    <script src="js/draggable.js"></script>
+    <script src="js/addtime.js"></script>    
+
+</body>
+</html>
